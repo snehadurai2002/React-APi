@@ -48,7 +48,7 @@
 }
 .search-bar button {
   padding: 0 20px;
-  background-color: #ff9900;
+  background-color:rgb(48, 178, 217);
   border: none;
   border-radius: 0 5px 5px 0;
   cursor: pointer;
@@ -56,7 +56,7 @@
   font-size: 16px;
 }
 .search-bar button:hover {
-  background-color: #e68a00;
+  background-color: rgb(48, 178, 217);
 }
 .auth-buttons {
   display: flex;
@@ -64,7 +64,7 @@
 }
 .auth-buttons .btn {
   padding: 10px 20px;
-  background-color: #ff9900;
+  background-color: rgb(48, 178, 217);
   color: white;
   border: none;
   border-radius: 5px;
@@ -72,7 +72,7 @@
   transition: background-color 0.3s, transform 0.2s;
 }
 .auth-buttons .btn:hover {
-  background-color: #e68a00;
+  background-color: rgb(48, 178, 217);
   transform: scale(1.05);
 }
 .nav-links {
@@ -91,7 +91,7 @@
   justify-content: center;
   align-items: center;
   height: 200px;
-  background-color: skyblue;
+  background-color: pink;
   color: #232f3e;
   margin: 20px 0;
   border-radius: 10px;
