@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import useFetchItems from './useFetchItems';
+import useFetchItems from './useFetchitem';
 
 function Electronics() {
   // const [items, setItems] = useState([]);

@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import useFetchItems from './useFetchItems';
+import useFetchItems from './useFetchitem';
 
-function Jewelery() {
+function Jewellery() {
   // const [items, setItems] = useState([]);
   const navigate = useNavigate();
 
-  const [data]=useFetchItems("https://fakestoreapi.com/products/category/jewelery")
+  const [data]=useFetchItems("https://fakestoreapi.com/products/category/jewelery");
 
   // useEffect(() => {
   //   // Fetch data from the API
@@ -37,4 +37,4 @@ function Jewelery() {
   );
 }
 
-export default Jewelery;
+export default Jewellery;

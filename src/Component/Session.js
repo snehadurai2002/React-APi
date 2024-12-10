@@ -10,8 +10,9 @@ function Session(){
         <section>
             <Outlet />
         </section>
+        <Product/>
         <Footer/>
         </> 
     )  
 }
-export default Session
+export default Session;

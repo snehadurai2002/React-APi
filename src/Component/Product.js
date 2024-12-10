@@ -20,7 +20,7 @@ function Product() {
     <div className="card-product-container">
       {categories.map((category) => (
         <div key={category} className="product-card">
-           <img src='https://media.istockphoto.com/id/1198614721/photo/stylish-and-modern-composition-of-living-room-with-design-gray-armchair-gold-liquor-cabinet.jpg?s=612x612&w=0&k=20&c=MnHlwdfKKNMYdypqDVdY4mt1NmUtqkSI0RMvOf44Jrk='/>
+           <img src='https://images.unsplash.com/photo-1733280881956-849e1c2b24bf?q=80&w=1854&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'/>
           <Link to={category}> 
           <button className="btn">View {category} </button> </Link>
         </div>

@@ -3,10 +3,10 @@ import { BrowserRouter, Routes, Route, Outlet } from "react-router-dom";
 import Session from "./Session";
 import Signin from "./Signin";
 import Signout from "./Signout";
-import Jewelery from "./Jewelery";
+import Jewellery from "./Jewellery";
 import Electronics from "./Electronics";
 import Menclothing from "./Menclothing";
-import Womenclothing from "./Womenclothing"
+import Womenclothing from './Womenclothes';
 import Product from "./Product";
 import Tableproduct from "./Tableproduct";
 import Cart from "./Cart";
@@ -24,12 +24,13 @@ function Router(){
               <Route path="tableproduct" element={<Tableproduct/>} />
               <Route path="deals" element={<Deals/>} />
               <Route path="cart/:id" element={<Cart/>} />
-              <Route path="jewelery" element={<Jewelery/>} />
+              <Route path="jewellery" element={<Jewellery/>} />
               <Route path="Electronics" element={<Electronics/>} />
-              <Route path="Men's clothing" element={<Menclothing/>} />
-              <Route path="Women's clothing" element={<Womenclothing/>} />
+              <Route path="Men'sclothing" element={<Menclothing/>} />
+              <Route path="Women'sclothing" element={<Womenclothing/>} />
             </Route>
           </Routes>
+          <Footer/>
         </BrowserRouter>
       );
 }
