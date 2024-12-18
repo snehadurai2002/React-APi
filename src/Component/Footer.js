@@ -6,9 +6,9 @@ const Footer =() =>{
     <div class="footer-column"> 
             <h3>Contact</h3> 
             <ul> 
-                <li>Email: contact@company.com</li> 
-                <li>Phone: +1 (555) 123-4567</li> 
-                <li>Address: 123 Main St, City, Country</li>
+                <li>Email: sneha@company.com</li> 
+                <li>Phone: 9087651234</li> 
+                <li>Address: 123 Main St, chennai, India</li>
             </ul> 
         </div>
 

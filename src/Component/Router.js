@@ -10,7 +10,7 @@ import Womenclothing from './Womenclothes';
 import Product from "./Product";
 import Tableproduct from "./Tableproduct";
 import Cart from "./Cart";
-import Footer from "./Footer";
+// import Footer from "./Footer";
 import Deals from "./Deals";
 
 function Router(){
@@ -30,7 +30,7 @@ function Router(){
               <Route path="Women'sclothing" element={<Womenclothing/>} />
             </Route>
           </Routes>
-          <Footer/>
+          
         </BrowserRouter>
       );
 }

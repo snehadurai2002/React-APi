@@ -70,8 +70,8 @@ const Header = () => {
     return (
         <>
             <header className="header"> 
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTopsCXC1uzDDiNiVvsI75RDN5rQZfLxgvGbA&s" alt="Company Logo" className="logo"/> 
-                <h1 className="company-name">E-Commerce</h1> 
+                <img src="https://thumbs.dreamstime.com/z/e-commerce-logo-design-template-white-background-e-commerce-logo-design-template-212252837.jpg" alt="Company Logo" className="logo"/> 
+                <h1 className="company-name">E-Commerce Website</h1> 
                 <div className="search-bar">
                     <select>
                         <option value="all">All</option>
